@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#navbar input{
+    border: 2px solid black;
+    border-radius: 23px;
+    margin: 10px 20px;
+    font-size: 15px;
+    padding: 20px 10px;
+    width: 200px;
+}
+.b{
+    margin: 20px auto;
+    height: 70px;
+    width: 200px;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 35px;
+    border: 4px solid black;
+    background-color: yellowgreen;
+    border-radius: 23px;
+    color:black;
+}
+.b:hover{
+    background-color: burlywood;
+    color: black;
+    border: 5px solid black;
+    width: 225px;
+    height: 75px;
+    text-align: center;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color:khaki;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+z-index: -1;
+opacity: 0.3;
+}
+#navbar ul li{
+    padding:20px 40px;
+}
+#navbar ul li a{
+    color:black;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    background-color:white;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#logo img{
+   border-radius: 20px;
+    padding: 20px 40px;
+    background-color:white;
+    margin: 20px;
+height: 60px;
+width: 40px;
+}
+.btn{
+    border: 2px solid black;
+    background-color: rgb(40,10,10);
+    border-radius: 23px;
+}
+.btn h3{
+    color:white;
+}
+.btn img{
+    padding: 0px 80px;
+    width: 50px 20px;
+height: 50px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: burlywood;
+}
+/* styling home section  */
+#home{
+    display: flex;
+    flex-direction:column;
+    padding: 0px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+#home::before{
+    content: "";
+    background: url(bg1.jpg) no-repeat center center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+.primary{
+    border: 4px solid black ;
+   background-color: lavenderblush;
+    border-radius: 23px;
+    color: black;
+    text-align: center;
+font-size: 30px;
+padding: 20px;
+}
+/* service section  */
+#services{
+    display: flex;
+    margin: 30px;
+    height: 500px;
+}
+.box{
+    border: 4px solid black;
+    width:100vw;
+    padding: 30px;
+    border-radius: 23px;
+    margin: 2px;
+    background-color: #f2f2f2;
+}
+.box img{
+height: 160px;
+display: block;
+padding: 10px;
+margin: 10px;
+width: 200px;
+margin: auto;
+}
+.secondary{
+    text-align: center;
+    padding: 10px;
+    border-radius: 23px;
+width: 200px;
+margin: auto;
+font-size: 30px;
+width: 300px;
+}
+#primary1{
+    margin: 40px auto;
+    text-align: center;
+font-size: 45px;
+border: 4px solid black;
+border-radius: 23px;
+width: 300px;
+padding: 20px;
+background-color: burlywood;
+}
+/* categories section  */
+.services-container{
+height: 650px;
+}
+#categories{
+    display: flex;
+    margin: 20px;
+    width: 1300px;
+    height: 300px;
+}
+.box1{
+ border: 4px solid black;   
+ padding: 10px 40px;
+ margin: 2px;
+ border-radius: 23px;
+ background-color: #f2f2f2;
+}
+#primary2{
+    margin: 15px auto;
+    text-align: center;
+    border: 4px solid black;
+    font-size: 45px;
+    width: 300px;
+    padding: 20px;
+    background-color: burlywood;
+    border-radius: 23px;
+}
+.tertiary{
+    text-align: center;
+    padding: 10px;
+    border-radius: 23px;
+margin: auto;
+font-size: 30px;
+}
+.box1 img{
+ margin: auto; 
+ display: block; 
+}
+/* contact form  */
+.categories-container2{
+    height: 300px;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+  background: url(contact.jpg) no-repeat center center/cover;
+}
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 0px;
+}
+#contactbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contactbox input,textarea{
+width: 100%;
+padding: 10px;
+}
+#contactbox label{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#primary3{
+    text-align: center;
+    margin: 15px auto;
+    border: 4px solid black;
+    font-size: 40px;
+    width: 300px;
+    padding: 20px;
+    background-color: burlywood;
+    border-radius: 23px;
+}
+.formgroup input,textarea{
+    border: 2px solid black;
+border-radius: 23px;
+}
+
